@@ -7,6 +7,9 @@ import javafx.scene.layout.GridPane;
 public class mainSceneController {
 
     @FXML
+    void initialize(){}
+
+    @FXML
     private GridPane gridPane;
 
     @FXML
