@@ -32,6 +32,7 @@ public class mainSceneController {
             Storage.writeToFile(generateLine());
         }else {
             System.err.println("hiba. 5 szám kell kereken");
+            App.setRoot("dialogScene");
         }
     }
 
