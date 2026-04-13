@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.Pane?>
@@ -37,5 +38,6 @@
         </rowConstraints>
       </GridPane>
       <Button fx:id="saveButton" layoutX="317.0" layoutY="62.0" mnemonicParsing="false" onAction="#onClickSaveButton" text="Mentés" />
+      <TextField fx:id="checkboxCounter" layoutX="50.0" layoutY="86.0" prefHeight="24.0" prefWidth="25.0" />
    </children>
 </Pane>
